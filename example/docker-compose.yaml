@@ -1,0 +1,56 @@
+mong
+
+
+
+#services:
+#  mongodb1:
+#    image: mongo:latest
+#    container_name: mongodb1
+#    ports:
+#      - "27017:27017"
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME:
+#      MONGO_INITDB_ROOT_PASSWORD:
+#      MONGO_INITDB_DATABASE: admin
+#    volumes:
+#      - "./data-mongo1:/data/db"
+
+
+
+#services:
+#
+#  mongodb-example:
+#    image: mongo:latest
+#    container_name: mongodb-example
+#    ports:
+#      - "27017:27017"
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME:
+#      MONGO_INITDB_ROOT_PASSWORD:
+#      MONGO_INITDB_DATABASE: admin
+
+
+
+
+  #this is example nginx
+#  nginx-part1:
+#    image: nginx:latest
+#    container_name: nginx-part1
+#    ports:
+#      - protocol: tcp
+#        published: 8080
+#        target: 80
+#  nginx-part2:
+#    image: nginx:latest
+#    container_name: nginx-part2
+#    ports:
+#      - "8081:80"
+#
+#
+#  #this example mongodb
+#  mongodb-example:
+#      image: mongo:latest
+#      container_name : mongodb-example
+
+
+
